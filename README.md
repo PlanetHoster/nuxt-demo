@@ -8,7 +8,7 @@ For more information on Nuxt 3, check out the [Nuxt 3 documentation](https://nux
 
 ## Requirements
 
-- Node.js
+- Node.js >= 18.0.0.
 - NPM
 
 ## Setup
