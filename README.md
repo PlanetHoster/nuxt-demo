@@ -47,7 +47,6 @@ Run the deploy command:
 `npm run deploy`
 
 ## About the Deploy Script
-- Checks the git status
 - Runs the build command
 - Sets environment variables
 - Restarts the application
