@@ -5,7 +5,7 @@
 </div>
 <br>
 <div>
-   <img src="public/img/nuxt-logo.svg" width="200" alt="Nuxt 3">
+   <img src="public/img/nuxt-logo1.svg" width="200" alt="Nuxt 3">
 </div>
 <br>
 Welcome to the Nuxt 3 Minimal Starter! This guide will help you deploy your Nuxt.js application on N0C hosting effortlessly. Follow along for a seamless deployment experience. 
