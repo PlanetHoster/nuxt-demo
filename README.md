@@ -83,6 +83,8 @@ It also removes the `package.json` file from the `server` directory.
 
 In this demo, I manually explain and deploy a Nuxt.js application on N0C without using the deployment script.
 
-[![Watch the video](doc/deploy-nuxtjs-demo.jpg)](https://vimeo.com/1011383078/6f7d832d96?ts=0&share=copy)
+<a href="https://vimeo.com/1011383078/6f7d832d96?ts=0&share=copy" target="_blank">
+  <img src="doc/deploy-nuxtjs-demo.jpg" alt="Watch the video">
+</a>
 
 Enjoy deploying your Nuxt.js application with ease!
