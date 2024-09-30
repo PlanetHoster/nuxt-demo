@@ -24,34 +24,36 @@ For more information on Nuxt 3, check out the [Nuxt 3 documentation](https://nux
    ```bash
      npm install
    ```
+   
 3. **Configure SSH Connection**
 
-Set up an SSH connection to your N0C hosting. [Learn how](https://kb.n0c.com/en/knowledge-base/how-to-create-an-ssh-key-and-connect-to-an-account/)
+   Set up an SSH connection to your N0C hosting. [Learn how](https://kb.n0c.com/en/knowledge-base/how-to-create-an-ssh-key-and-connect-to-an-account/)
 
 4. **Set Up Node.js Application on N0C**
 
-Create and configure your Node.js application on N0C hosting. [Learn more](https://kb.n0c.com/en/knowledge-base/nodejs-application-management/)
+   Create and configure your Node.js application on N0C hosting. [Learn more](https://kb.n0c.com/en/knowledge-base/nodejs-application-management/)
 
-**Important:** During the application creation step, specify the following JavaScript entry file:
+   **Important:** During the application creation step, specify the following JavaScript entry file:
 
-`server/server.js`
+   `server/server.js`
 
 5. **Configure Environment Variables**
 
-Copy and rename the `.env-example` file to `.env`. Enter the required variable values.
+   Copy and rename the `.env-sample` file to `.env`. Enter the required variable values.
 
 6. **Deploy Your Application**
 
-Run the deploy command:
+   Run the deploy command:
 
-`npm run deploy`
+   `npm run deploy`
 
 ## About the Deploy Script
 - Runs the build command
 - Sets environment variables
 - Restarts the application
 
+The web server `Passenger` on N0C does not support `.mjs`files.
+The deploy script creates a `server.js` file in the `server` directory that imports the `index.mjs` to bypass this limitation.
+It also removes the `package.json` file from the `server` directory.
+
 Enjoy deploying your Nuxt.js application with ease!
-
-
-
