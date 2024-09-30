@@ -8,7 +8,7 @@
    <img src="public/img/nuxt-logo1.svg" width="200" alt="Nuxt 3">
 </div>
 <br>
-Welcome to the Nuxt 3 Minimal Starter! This guide will help you deploy your Nuxt.js application on N0C hosting effortlessly. Follow along for a seamless deployment experience. 
+Welcome to the Nuxt 3 Minimal Starter! This guide will help you deploy your Nuxt.js application on <a href="https://www.planethoster.com/en/World-Hosting">N0C hosting</a>  effortlessly. Follow along for a seamless deployment experience. 
 
 For more information on Nuxt 3, check out the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction).
 
