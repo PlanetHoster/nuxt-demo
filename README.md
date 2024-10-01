@@ -12,7 +12,7 @@ Welcome to the Nuxt 3 Minimal Starter! This guide will help you deploy your Nuxt
 
 For more information on Nuxt 3, check out the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction).
 
-Demo: [https://nuxt.nicholasberube.com](https://nuxt.n0c.xyz/)
+Demo: [https://nuxt.n0c.xyz](https://nuxt.n0c.xyz/)
 
 ## Requirements
 
